@@ -1,0 +1,43 @@
+.contactUser {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.contactUser button {
+  color: rgb(206, 55, 55);
+  border-radius: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+  transition: all 250ms ease-in-out;
+  outline: none;
+  border: 1px solid #2DC9EB;
+  padding: 10px 20px;
+}
+
+button:hover {
+  box-shadow: none;
+  color: white;
+  background: linear-gradient(315deg, #4048EF 0%, #5A7BEF 100%);
+}
+
+.user {
+  margin: 0;
+}
+
+.wrapper {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactList {
+  padding-left: 10px;
+}
+
+.contactInfo {
+  margin: 30px 10px 10px;
+  color: #5A7BEF;
+}

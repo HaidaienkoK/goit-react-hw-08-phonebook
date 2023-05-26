@@ -1,0 +1,13 @@
+.phonebook {
+  max-width: 600px;
+  min-width: 320px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background: #ecf0f3;
+  border: 1px solid #2DC9EB;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px 20px;
+}
